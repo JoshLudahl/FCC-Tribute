@@ -12,7 +12,7 @@
 
 section {
     background-color: #543647;
-    color:#f6d965;
+    color: #f6d965;
     height: 100vh;
     width: 100%;
     padding: 0 10%;
@@ -20,51 +20,56 @@ section {
     margin: 0;
     max-width: none;
 }
-section>div>img {
+
+section > div > img {
     padding: 5% 5%;
     display: block;
     margin: auto;
 }
-section>div>p {
+
+section > div > p {
     color: #fff;
 }
 
 section:nth-child(odd) {
     background-color: #fff;
-    color:#543647;
+    color: #543647;
 }
-section:nth-child(odd)>div>p {
+
+section:nth-child(odd) > div > p {
     color: #333;
 }
-
-
 
 .content {
     display: table-cell;
     vertical-align: middle;
 }
-.content>div>table {
-    margin-left:auto;
-    margin-right:auto;
+
+.content > div > table {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
+
 .pr {
     margin: 5% 5%;
-    width:70%;
-    margin-left:15%;
-    margin-right:15%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 table {
     min-width: 30rem;
 }
 
-thead>tr {
+thead > tr {
     background-color: #f6d965 !important;
 }
+
 tr:nth-child(2n) {
     background-color: #fff;
 }
+
 tr:nth-child(2n+1) {
     background-color: #ecf0f1;
 }
@@ -74,7 +79,8 @@ tr:nth-child(2n+1) {
     color: white !important;
     background-color: #000 !important;
 }
-.end-quote>div>h2 {
+
+.end-quote > div > h2 {
 
     background-color: #ff4f42;
 }
@@ -88,7 +94,6 @@ h1 {
     overflow-wrap: normal;
 
 }
-
 
 p {
     font-family: 'Merriweather';
@@ -116,12 +121,14 @@ footer {
     color: #543647;
     font-weight: 400;
 }
+
 footer a {
     color: white;
     background-color: #f6d965;
     font-weight: 700;
     text-decoration: none;
 }
+
 footer a:hover {
     color: #543647;
 }

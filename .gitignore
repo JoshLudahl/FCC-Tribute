@@ -2,6 +2,11 @@
 Thumbs.db
 ehthumbs.db
 
+
+# JetBrains Stuff
+*.idea
+*.iml
+
 # Folder config file
 Desktop.ini
 
